@@ -28,7 +28,7 @@
             aria-expanded="false" 
             aria-lable="Toggle navigation"
           >
-            <span class="navbar-dark navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
         </p>
           
@@ -44,7 +44,7 @@
                  
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <li><a class="dropdown-item" href="#">PacMen Code Excercise</a></li>
-                  <li><a class="dropdown-item" href="#">Moving Eye Excercise</a></li>
+                  <li><a class="dropdown-item" href="https://edmunddelrosario.github.io/Eye-Exercise/">Moving Eye Excercise</a></li>
                   <li><a class="dropdown-item" href="https://edmunddelrosario.github.io/Real-Time-Bus-Tracker/">Real Bus Tracker Excercise</a></li>
                 </ul>
             </ul>
@@ -59,7 +59,7 @@
           <div class="container align-items-center">
             <h3 style="color: white">HELLO WORLD!</h3>
             <p style="font-weight:800; font-size: 44px; color: White">I AM <span class="name-title"></span></p>
-            <p style="color:white">I am passionate in creating minimalistic web designs that people can interface with ease.</p>
+            <p style="color:white">I love creating minimalistic web designs that people can interface with ease.</p>
           </div>  
         </div>
       </div>
@@ -87,10 +87,40 @@
 
         <section id="Projects">
           <div class="container-fluid" style="background-color: #dfe2e4; padding: 110px 0px; 110px; 0px;">
-            <div class="div container">
+            <div class="container px-0">
               <div class="text-center fs-1" style="color:#ffffff; letter-spacing: 0.1em">PROJECTS</div>
               <div class="text-center fs-3" style="letter-spacing: 0.1em; position: relative; top:-35px">PROJECTS</div>
+              <div class="text-center pt-0" style="position: relative; top:-35px">Some of the projects I worked on during my MIT xPro Coding Class</div>
             </div>
+            <!--Grid Container-->
+            <div  class="grid-container container px-0">
+              <!--First Image on the Grid-->
+              <div class="card" style="box-shadow: 4px 1px 10px rgb(153, 152, 152);">
+                <img class="gallery_img_1 card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Real Bus Tracker</h5>
+                  <p class="card-text">An example web application that uses API and Asynchronous codes.  Some of technology use to create this app are:</p>
+                  <a href="#" class="btn mt-2" style="background-color: #f6d04d">View Application</a>
+                </div>
+              </div>
+              <!--Second Image on the Grid-->
+              <div class="card" style="box-shadow: 4px 1px 10px rgb(153, 152, 152);">
+                <img class="gallery_img_2 card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Moving Eye Excercise</h5>
+                  <p class="card-text">Use JavaScript to set web page styles.  Some of technology use to create this app are:</p>
+                  <a href="#" class="btn mt-2" style="background-color: #f6d04d">View Application</a>
+                </div>
+              </div>
+              <!--Third Image on the Grid-->
+              <div class="card" style="box-shadow: 4px 1px 10px rgb(153, 152, 152);">
+                <img class="gallery_img_2 card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Real Bus Tracker</h5>
+                  <p class="card-text">Uses JavaScript to dynamically display data on a web page.  Some of technology use to create this app are:</p>
+                  <a href="#" class="btn mt-2" style="background-color: #f6d04d">View Application</a>
+                </div>
+              </div>
           </div>
         </section>
       </main>
@@ -103,9 +133,11 @@
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 100) {
           nav.classList.add('bg-light', 'shadow');
-        } else {
+          nav.classList.replace('navbar-dark','navbar-light');
+          } else {
           nav.classList.remove('bg-light', 'shadow');
-        }
+          nav.classList.replace('navbar-light','navbar-dark');
+          }
       });
     </script>
   </body>
