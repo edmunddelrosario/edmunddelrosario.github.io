@@ -17,16 +17,15 @@ section {
 
 /*hero banner image*/
 #HeroBanner {
-  background-image: url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
+  background-image: url(/media/HeroBanner.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
-
 }
 
 .name-title {
-    color: #fd4766;
+    color: #f6d04d;
     }
   
   .name-title::before {
@@ -40,12 +39,12 @@ section {
     0% {opacity:0; content:"EDMUND DEL ROSARIO"}
     15% {opacity:1; content:"EDMUND DEL ROSARIO"}
     30% {opacity:0; content:"EDMUND DEL ROSARIO"}
-    31% {opacity:0; content:"A UI/UX DESIGNER"}
-    45% {opacity:1; content:"A UI/UX DESIGNER"}
-    70% {Opacity:0; content:"A UI/UX DESIGNER"}
-    71% {opacity:0; content:"A WEB DEVELOPER"}
-    85% {Opacity:1; content:"A WEB DEVELOPER"}
-    100% {Opacity:0; content:"A WEB DEVELOPER"}
+    31% {opacity:0; content:"WORDPRESS DEVELOPER"}
+    45% {opacity:1; content:"WORDPRESS DEVELOPER"}
+    70% {Opacity:0; content:"WORDPRESS DEVELOPER"}
+    71% {opacity:0; content:"DIGITAL MARKETER"}
+    85% {Opacity:1; content:"DIGITAL MARKETER"}
+    100% {Opacity:0; content:"DIGITAL MARKETER"}
   }
 
 
